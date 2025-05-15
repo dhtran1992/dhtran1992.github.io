@@ -8,5 +8,7 @@ title: Welcome
 
 I'm a technical writer and software engineer. Here's a recent writing sample based on my work in cloud-based data systems:
 
+👉 [Read: Developer Enablement and Empathy: Building Better Docs and Tools](2025/05/15/developer-enablement-and-empathy.html)  
 👉 [Read: Documenting Cloud-Based ETL Pipelines](2025/05/14/documenting-cloud-etl.html)
+
 
