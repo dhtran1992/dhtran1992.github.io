@@ -37,7 +37,7 @@ Avoid jargon when possible and define all acronyms upfront. For example, use “
 
 Diagrams, flowcharts, and tables can significantly improve comprehension. Use tools like draw.io or Lucidchart to create architecture diagrams and embed them within your documentation.
 
-![My Diagram](/assets/images/lucidChart.png "ETL Architecture Sample")
+![My Diagram](/assets/images/lucidChart.png)
 
 ### Write Step-by-Step Procedures
 
