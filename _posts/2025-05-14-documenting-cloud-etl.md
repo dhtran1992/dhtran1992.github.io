@@ -15,7 +15,7 @@ This article shares a practical example from documenting cloud-based ETL pipelin
 ## Understanding the Pipeline Architecture
 
 The ETL pipeline consists of several components:
-s
+
 - **Optional: Ingestion:** An optional preprocessing step, that can validate and filter the data before it gets to the actual extraction.
 
 - **Data Extraction:** Pulls data from multiple sources to hydrate the data, e.g., if there are required fields that need to be populated on a transaction
