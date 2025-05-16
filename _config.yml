@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Dominic Tran's Github Page
+title: Dominic Tran – Developer & Technical Writer 
 email: dhtran1992@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my github page, here you'll find some sample writing and projects!
