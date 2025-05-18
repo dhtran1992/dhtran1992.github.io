@@ -16,10 +16,10 @@ This article shares a practical example from documenting cloud-based ETL pipelin
 
 The ETL pipeline consists of several components:
 
-- **Optional: Ingestion:** An optional preprocessing step, that can validate and filter the data before it gets to the actual extraction.
-- **Data Extraction:** Pulls data from multiple sources to hydrate the data, e.g., if there are required fields that need to be populated on a transaction
-- **Transformation:** Recieves the hydrated data and transforms it, commonly mapping the data to the fields the destination api expects.
-- **Loading:** Writes processed data to destination (CRM, data warehouse etc.) 
+- **Optional: Ingestion:** An optional preprocessing step, that can validate and filter the data before it gets to the actual extraction. For example, we can validate if an org tenant is enabled for a destination integration type before we start to extract required data.
+- **Data Extraction:** Pulls data from multiple sources to hydrate the data, e.g., if there are required fields that need to be populated on a transaction.
+- **Transformation:** Receives the hydrated data and transforms it, commonly mapping the data to the fields the destination api expects.
+- **Loading:** Writes processed data to destination (CRM, data warehouse etc.)
 
 A typical architecture diagram helps visualize these components and their interactions (see Figure 1). Here's an example in LucidChart
 
@@ -40,11 +40,11 @@ Diagrams, flowcharts, and tables can significantly improve comprehension. Use to
 
 ### Write Step-by-Step Procedures
 
-For onboarding or troubleshooting, provide detailed step sequences with screenshots or code snippets. For instance, document how to monitor ETL job status in AWS CloudWatch or how to handle common errors. I love as many details as possible, but perhaps put them in an optional, but easily to access area, or hidden behind a collapsable section.
+For onboarding or troubleshooting, provide detailed step sequences with screenshots or code snippets. For instance, document how to monitor ETL job status in AWS CloudWatch or how to handle common errors. While detailed information is valuable, consider putting it behind a collapsible section to maintain readability.
 
 ## Collaborating with Cross-Functional Teams
 
-Effective documentation requires input from engineers, product managers, and customer support teams. Regular review cycles ensure content remains accurate and relevant.
+Effective documentation requires input from engineers, product managers, and customer support teams. Regular review cycles ensure content remains accurate and relevant. Try sharing drafts and documentation proactively in team chats! That shortens the feedback loop and gives an opportunity for asynchronous collaboration. 
 
 ## Conclusion
 
