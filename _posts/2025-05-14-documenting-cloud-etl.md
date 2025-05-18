@@ -17,7 +17,6 @@ This article shares a practical example from documenting cloud-based ETL pipelin
 The ETL pipeline consists of several components:
 
 - **Optional: Ingestion:** An optional preprocessing step, that can validate and filter the data before it gets to the actual extraction.
-
 - **Data Extraction:** Pulls data from multiple sources to hydrate the data, e.g., if there are required fields that need to be populated on a transaction
 - **Transformation:** Recieves the hydrated data and transforms it, commonly mapping the data to the fields the destination api expects.
 - **Loading:** Writes processed data to destination (CRM, data warehouse etc.) 
